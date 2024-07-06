@@ -1,0 +1,87 @@
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin: 80px 170px;
+  }
+  
+  .footer-title {
+    position: relative;
+    text-align: center;
+  }
+  
+  .footer-title h1 {
+    padding: 0px 30px;
+    font-size: 60px; /* Adjusted font size for better alignment */
+    font-weight: 600;
+  }
+  
+  .footer-title img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+  }
+  
+  .footer-top-left {
+    max-width: 800px; /* Adjust max-width for better alignment */
+  }
+  
+  .footer-top-left p {
+    font-size: 24px;
+    margin-bottom: 20px; /* Add margin to separate paragraphs */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Center the icons */
+    margin-top: 20px;
+  }
+  
+  .social-icons img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .footer-center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+  }
+  
+  .say-hello {
+    font-size: 20px;
+    padding: 22px 50px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF);
+    cursor: pointer;
+    transition: 0.3s;
+    
+  }
+  .say-hello a{
+    color: white;
+  }
+  
+  .say-hello:hover {
+    opacity: 0.8;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+  }
+  
+  hr {
+    width: 100%;
+  }
+  
